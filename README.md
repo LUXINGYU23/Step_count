@@ -16,7 +16,7 @@ This project is a pedometer system designed using the STC89C52RC microcontroller
 ## Project Overview
 - **Project Name**: Pedometer Design Based on STC89C52RC
 - **Project Date**: August 2024
-- **Author**: Lu Xingyu (ID: 3220100425)
+- **Author**: Xingyu Lu
 - **Course**: Comprehensive Circuit Innovation Practice
 
 This project aims to develop a digital pedometer leveraging the accelerometer sensor to track human movement and count steps. The device also integrates Bluetooth connectivity to transmit data to a mobile device, making it a compact and low-power solution for wearable health monitoring.
