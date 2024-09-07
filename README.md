@@ -39,7 +39,7 @@ The circuit design is modular, with each subsystem playing a specific role. Here
 - **LCD Display**: Connected via parallel data lines to display real-time step count.
 - **Bluetooth Module**: Facilitates data transfer using UART communication.
 
-For detailed schematics, refer to the `/docs/circuit_schematic.pdf`.
+For detailed schematics, refer to the `SCH_Schematic1.pdf`.
 
 ## Software Structure
 The software is modular and designed for real-time step detection and data communication. Key modules include:
@@ -56,7 +56,7 @@ The core algorithm relies on accelerometer data from the ADXL345 sensor. It uses
 3. **Dynamic Thresholding**: Adjusts the step detection threshold based on user activity.
 4. **Step Counting**: Counts steps when the acceleration crosses the dynamic threshold, ensuring accurate results across various walking speeds.
 
-For more details on the algorithm, check the `step_detection.c` file in the repository.
+For more details on the algorithm, check the `adxl345.c` file in the repository.
 
 ## Challenges and Solutions
 During development, several challenges were encountered:
@@ -69,21 +69,9 @@ The PCB design is compact and follows a two-layer layout:
 - **Bottom Layer**: Handles power and ground distribution, ensuring minimal interference.
 - **Signal Integrity**: Key signal lines (I2C, UART) are carefully routed to avoid noise.
 
-For detailed design files, check the `/pcb_design` directory.
+For detailed design files, check the `PCB_PCB1.pdf`.
 
 ## Conclusion
 This project successfully implements a reliable, low-power pedometer system using the STC89C52RC microcontroller and ADXL345 accelerometer. The device accurately counts steps and supports wireless communication, making it suitable for wearable applications. Future improvements could focus on enhancing battery life and integrating more sensors for comprehensive activity tracking.
 
-## Repository Structure
-```
-/docs
-  - circuit_schematic.pdf
-  - pcb_layout.pdf
-/src
-  - main.c
-  - step_detection.c
-  - i2c.c
-/pcb_design
-  - pcb_layout.brd
-  - pcb_schematic.sch
-```
+
