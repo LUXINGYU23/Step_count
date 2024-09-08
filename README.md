@@ -20,6 +20,8 @@ This project is a pedometer system designed using the STC89C52RC microcontroller
 - **Course**: Comprehensive Circuit Innovation Practice
 
 This project aims to develop a digital pedometer leveraging the accelerometer sensor to track human movement and count steps. The device also integrates Bluetooth connectivity to transmit data to a mobile device, making it a compact and low-power solution for wearable health monitoring.
+![354e290935d2c5ecbd8ea713473f8fa](https://github.com/user-attachments/assets/1f69a4bc-e47b-483b-afc5-cc2c9701cea3)
+![6b743d5c8eb00298c2e649c2fcbc6f1](https://github.com/user-attachments/assets/a21d8456-e96d-43cb-a345-a6d012f7d443)
 
 ## Hardware Components
 The hardware design integrates several key modules, including:
